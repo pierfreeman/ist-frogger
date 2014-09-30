@@ -6,20 +6,106 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		24CD61B619DAEEA9006C9A8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24CD61B519DAEEA9006C9A8F /* main.cpp */; };
+		24CD61BB19DAEEF4006C9A8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CD61BA19DAEEF4006C9A8F /* Cocoa.framework */; };
+		24CD61BD19DAEEFB006C9A8F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CD61BC19DAEEFB006C9A8F /* GLUT.framework */; };
+		24CD61BF19DAEF01006C9A8F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CD61BE19DAEF01006C9A8F /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24CD61B019DAEEA9006C9A8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24CD61B219DAEEA9006C9A8F /* ist-frogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ist-frogger"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CD61B519DAEEA9006C9A8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		24CD61BA19DAEEF4006C9A8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		24CD61BC19DAEEFB006C9A8F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		24CD61BE19DAEF01006C9A8F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CD61AF19DAEEA9006C9A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD61BF19DAEF01006C9A8F /* OpenGL.framework in Frameworks */,
+				24CD61BD19DAEEFB006C9A8F /* GLUT.framework in Frameworks */,
+				24CD61BB19DAEEF4006C9A8F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		24CD61A719DAEDB1006C9A8F = {
 			isa = PBXGroup;
 			children = (
+				24CD61BE19DAEF01006C9A8F /* OpenGL.framework */,
+				24CD61BC19DAEEFB006C9A8F /* GLUT.framework */,
+				24CD61BA19DAEEF4006C9A8F /* Cocoa.framework */,
+				24CD61B419DAEEA9006C9A8F /* ist-frogger */,
+				24CD61B319DAEEA9006C9A8F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		24CD61B319DAEEA9006C9A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CD61B219DAEEA9006C9A8F /* ist-frogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CD61B419DAEEA9006C9A8F /* ist-frogger */ = {
+			isa = PBXGroup;
+			children = (
+				24CD61B519DAEEA9006C9A8F /* main.cpp */,
+			);
+			path = "ist-frogger";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CD61B119DAEEA9006C9A8F /* ist-frogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CD61B719DAEEA9006C9A8F /* Build configuration list for PBXNativeTarget "ist-frogger" */;
+			buildPhases = (
+				24CD61AE19DAEEA9006C9A8F /* Sources */,
+				24CD61AF19DAEEA9006C9A8F /* Frameworks */,
+				24CD61B019DAEEA9006C9A8F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ist-frogger";
+			productName = "ist-frogger";
+			productReference = 24CD61B219DAEEA9006C9A8F /* ist-frogger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		24CD61A819DAEDB1006C9A8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					24CD61B119DAEEA9006C9A8F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
 			};
 			buildConfigurationList = 24CD61AB19DAEDB1006C9A8F /* Build configuration list for PBXProject "ist-frogger" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -29,12 +115,25 @@
 				en,
 			);
 			mainGroup = 24CD61A719DAEDB1006C9A8F;
+			productRefGroup = 24CD61B319DAEEA9006C9A8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				24CD61B119DAEEA9006C9A8F /* ist-frogger */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CD61AE19DAEEA9006C9A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD61B619DAEEA9006C9A8F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		24CD61AC19DAEDB1006C9A8F /* Debug */ = {
@@ -49,6 +148,82 @@
 			};
 			name = Release;
 		};
+		24CD61B819DAEEA9006C9A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		24CD61B919DAEEA9006C9A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +235,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		24CD61B719DAEEA9006C9A8F /* Build configuration list for PBXNativeTarget "ist-frogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD61B819DAEEA9006C9A8F /* Debug */,
+				24CD61B919DAEEA9006C9A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
