@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977e6599-a44f-43fa-8986-1d966a9cd2f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Car.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Car.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Color.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Color.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Cube.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Cube.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Cylinder.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Cylinder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Frog.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Frog.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Mesh.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Mesh.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Rectangle.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Rectangle.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/SceneObject.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/SceneObject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Sphere.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Sphere.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Trapeze.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Trapeze.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Triangle.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Triangle.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Trunk.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Trunk.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Vector.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ist-frogger/GameObjects/Vector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/piercarloserena.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ist-frogger/main.cpp" afterPath="$PROJECT_DIR$/ist-frogger/main.cpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/piercarloserena.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ist-frogger.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="" />
     </list>
     <ignored path="ist-frogger.iws" />
     <ignored path=".idea/workspace.xml" />
